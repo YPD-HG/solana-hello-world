@@ -9,7 +9,7 @@ pub fn process_instruction(
     _accounts: &[AccountInfo],
     _instruction_data: &[u8],
 ) -> ProgramResult {
-    msg!("Hello Solana!, Yashdeep this side!");
+    msg!("Hello Solana!");
     Ok(())
 }
 
